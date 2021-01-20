@@ -5,7 +5,7 @@ const EmailForm = () => {
     <form
       method="post"
       name="launch-signup"
-      id="launch-signup"
+      id="signup-form"
       action="/success/"
       onSubmit="submit"
       data-netlify="true"
