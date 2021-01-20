@@ -4,8 +4,10 @@ const EmailForm = () => {
   return (
     <form
       method="post"
-      name="signup-form"
-      id="signup-form"
+      name="launch-signup"
+      id="launch-signup"
+      action="/success/"
+      onSubmit="submit"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
